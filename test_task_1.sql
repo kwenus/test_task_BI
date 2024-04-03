@@ -48,7 +48,7 @@ limit 3
 --            eph_mra4	                total
 -- C09A0 - ACE INHIBITORS PLAIN	        142635
 -- C07A0 - BETA BLOCKING AGENT PLAIN    104246
--- A10J1 - BIGUANIDE A-DIABS PLAIN	    44362
+-- A10J1 - BIGUANIDE A-DIABS PLAIN	44362
 	
 -- 2. Для вывода топ-позиций можно использовать такой запрос:	
 
@@ -78,4 +78,4 @@ limit 1
 	
 -- Вывод:	
 -- month	   total
---   3	     1174118.13
+--   3	         1174118.13
