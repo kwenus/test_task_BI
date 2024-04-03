@@ -1,8 +1,8 @@
 -- Что из этого датасета получим путём выполнения запроса:
 
-select trade_name from (
-select trade_name,qty,row_number() over (order by qty desc) ov from (
-select p.trade_name,sum(qty) as qty from dw_fact f
+select trade_name from 
+(select trade_name,qty,row_number() over (order by qty desc) ov from 
+(select p.trade_name,sum(qty) as qty from dw_fact f
 inner join dw_product p on f.product_key = p.product_key
 where substring(date_key,5,2)='09'
 group by 1
